@@ -23,16 +23,13 @@ class Fruit {
     set image(image) {
         this.#image = image
     }
-    // cette méthode permet de créer 
-    _tableaufruit() {
-        let fruits = [
-            { nom: "Orange", image: "orange.jpg" },
-            { nom: "Kiwi", image: "kiwi.jpg" },
-            { nom: "Banane", image: "banane.jpg" },
-            { nom: "Peche", image: "peche.jpg" },
-            { nom: "Cerise", image: "cerise.jpg" },
-        ]
-        
+    
+    // _afficherfruits(){
+    //     // sur cette méthode je crée un tableau de nom de fruit avec le foreach qui est une boucle qui passe sur chaque élément du tableau. Pour chaque fruit j'ai mis comme propriété (nom et index)
+    //      this.#nom.forEach((nom,index) => {
+    //         const image = this.#image[index] || "Aucune image......";
+    //         console.log(`${this.#nom} - ${this.#image}`)
+    //      });
+    //  }
 
     }
-}
