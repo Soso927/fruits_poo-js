@@ -3,6 +3,9 @@
 // console.log(`${this.nom} - ${this.image}`)
 // const fruit = new Fruit (["orange","banane","kiwi"], ["orange.jpg","banane.jpg","kiwi.jpg"]);
 // console.log(fruit);
-const mesfruits = new Fruits();
-this.#tabFruits.push(mesfruits);
+const mesfruits = new collectionFruits();
+// this.tabFruits.push(mesfruits);
+console.log(mesfruits.tabFruits);
+const macollection = new collectionFruits();
+macollection.afficherfruits();
 
